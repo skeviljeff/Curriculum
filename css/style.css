@@ -17,6 +17,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin: 1rem 0 2rem 0; }
 
+
 ul {
   list-style: none; }
 
@@ -66,7 +67,9 @@ img {
   margin-bottom: 5rem !important; }
 
 .mb2 {
-  margin-bottom: 2rem !important; }
+  margin-bottom: 2rem !important; 
+  
+}
 
 @keyframes bounce {
   0% {
@@ -188,12 +191,20 @@ img {
 
 .grid-container {
   display: grid;
-  grid: "picture header" auto "aside main" 1fr "footer footer" auto /350px auto;
+  grid: "picture header" auto
+ "aside main" 1fr
+ "footer footer" auto
+ /350px auto;
   min-height: 100vh; }
   @media (max-width: 480px) {
     .grid-container {
       display: grid;
-      grid: "header" auto "picture" auto " main" auto "aside" auto "footer" auto / auto;
+      grid: "header" auto
+ "picture" auto
+ " main" auto
+ "aside" auto
+ "footer" auto
+ / auto;
       min-height: 100vh; } }
 
 header {
